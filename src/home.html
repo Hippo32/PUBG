@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝地求生</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+	<header class="head">
+		<a class="logo" href="#"></a>
+		<!-- <img src="bg_top.png"> -->
+		<div class="nav_box">
+			<ul class="head_nav">
+				<li><a href="#">官网首页</a></li>
+				<li><a href="#">绑定查询</a></li>
+				<li><a href="#">国服预约</a></li>
+				<li><a href="#">老兵绑定</a></li>
+				<li><a href="#">游戏特色</a></li>
+				<li><a href="#">社区APP</a></li>
+				<li><a href="#">网吧认证</a></li>
+			</ul>
+		</div>
+		<button onclick="javascript: window.location.href='http://pubg.qq.com/main.shtml'">进入官网</button>
+
+	</header>
+	<div class="left_nav">
+		<ul>
+			<li onclick="changeBox('up')"></li>
+			<li onclick="changeBox('', 1)">N</li>
+			<li onclick="changeBox('', 2)">NE</li>
+			<li onclick="">E</li>
+			<li onclick="">SE</li>
+			<li onclick="">S</li>
+		</ul>
+	</div>
+	
+
+	<div class="container">
+		<div class="first_box">
+			<img src="..\source\photo\logo_b.png">
+			<video class="video" src="..\source\video\video1.mp4" autoplay loop></video>
+			
+		</div>
+		<div class="second_box">
+			<video class="video" src="..\source\video\video2.mp4" loop></video>
+		</div>
+		<div class="third_box">
+			<video class="video" src="..\source\video\video3.mp4" loop></video>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="home.js"></script> </body>
+</html>

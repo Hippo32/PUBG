@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	overflow: hidden;
+}
+.head {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-width: 1440px;
+	height: 88px;
+	/*background-size: 100% 100%;*/
+	background-image: url('../source/photo/bg_top.png');
+	z-index: 100;
+	overflow: hidden;
+}
+.head .logo {
+	background: url('../source/photo/logo.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	width: 129px;
+    height: 66px;
+    margin-top: 5px;
+    margin-left: 140px;
+    display: block;
+    float: left;
+    background-position: 0 0;
+
+}
+.nav_box {
+	width: 60%;
+	margin: 0 auto;
+}
+.head_nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.head_nav li {
+	display: inline-block;
+	margin-left: 55px;
+	color: #fff;
+	font-weight: bold;
+}
+.head_nav a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.head_nav a:hover {
+	color: #e69800;
+}
+
+.head_nav li:nth-child(3) a, .head_nav li:nth-child(4) a {
+	color: #e69800;
+}
+
+.head button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 60px;
+	width: 142px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    background: #e69800;
+    border: none;
+}
+
+/*左侧导航栏*/
+.left_nav ul {
+	display: block;
+    background: url('../source/photo/bg_nav.png');
+    background-size: 100% 100%;
+    position: absolute;
+    width: 30px;
+    height: 586px;
+    top: 88px;
+    left: 30px;
+    z-index: 10;
+    list-style: none;
+}
+.left_nav ul li {
+	position: absolute;
+	left: 28px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.left_nav ul li:hover {
+	color: #e69800;;
+}
+
+.left_nav ul li:nth-child(1) {
+	top: 0;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+ 	border-radius: 50%;
+	/*background-color: red;*/
+}
+.left_nav ul li:nth-child(2) { top: 30px; }
+.left_nav ul li:nth-child(3) { top: 158px; }
+.left_nav ul li:nth-child(4) { top: 286px; }
+.left_nav ul li:nth-child(5) { top: 414px; }
+.left_nav ul li:nth-child(6) { top: 541px; }
+
+
+.container{
+	transform: translate(0,0);
+	transition: all 1s;
+}
+.video {
+	object-fit: fill;
+	width: 100%;
+	display: block;
+}
+
+.first_box img {
+	position: absolute;
+	display: inline-block;
+	width: 480px;
+	height: 240px;
+	top: 350px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
